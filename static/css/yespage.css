@@ -48,3 +48,72 @@ img{
 	text-transform: uppercase;
 	border: #fe5f55;
 }
+
+
+.container{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+	img{
+		max-width: 200px;
+		height: auto;
+		margin-top: 2vh;
+	}
+
+	div.row h1{
+		font-size: 20pt;
+	}
+
+	div.row h2{
+		font-size: 10pt;
+	}
+
+	container-fluid{
+		min-width: 500px;
+		vertical-align: middle;
+	}
+
+	.container{
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+	
+
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}
