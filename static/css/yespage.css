@@ -1,20 +1,29 @@
-body, html{
+body{
 	margin: 0;
 	padding: 0;
 	background: url(../img/yesback.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 100vh;
-
-
 	
 }
 
-container-fluid{
-	min-width: 500px;
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10vh;
 }
+
 
 div.row{
 	justify-content:center;
 }
+
 
 div.row h1{
 	padding: 0;
@@ -24,7 +33,6 @@ div.row h1{
 	font-size: 50pt;
 	text-align: center;
 	border-radius: 100px;
-	margin-top: 5vh;
 }
 
 div.row h2{
@@ -48,23 +56,16 @@ img{
 	text-transform: uppercase;
 	border: #fe5f55;
 }
-
-
-.container{
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+#mainpage{
+	vertical-align: middle;
 }
 
+ /*Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {  
 	img{
 		max-width: 200px;
 		height: auto;
-		margin-top: 2vh;
 	}
 
 	div.row h1{
@@ -91,29 +92,3 @@ img{
 
 }
  
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (max-width: 768px) {  
- 
-}
- 
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
- 
-}
- 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {  
-    
-}
- 
- 
- 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Custom media queries
-*/
- 
-/* Set width to make card deck cards 100% width */
-@media (max-width: 950px) { 
- 
-}
