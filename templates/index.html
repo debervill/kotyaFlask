@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="ru">
+
+	<head>
+		<title>Ты котя?</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css')}}">
+		{% include 'bootstrap.html' %}
+	</head>
+	<body>
+		<div class="container main">
+			<div class="kotya">
+				<h1>Ты котя?</h1>
+					<button class="btn btn-primary" id="yesbtn" onClick="window.location.href='{{ url_for( 'yespressed' ) }}';">Да</button>
+					<button class="btn btn-primary" id="nobtn" onClick="window.location.href='{{ url_for( 'nopressed' ) }}';">Нет</button>
+			</div>
+		</div>
+</body>
+</html>

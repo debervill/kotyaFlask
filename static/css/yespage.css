@@ -1,0 +1,49 @@
+html{
+	min-width: 488px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/yesback.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+}
+
+container-fluid{
+	min-width: 500px;
+}
+
+div.row{
+	justify-content:center;
+}
+
+div.row h1{
+	padding: 0;
+	border: 0;
+	font-family: 'Pattaya', sans-serif;
+	color:#cc0000;
+	font-size: 50pt;
+	text-align: center;
+	border-radius: 100px;
+	margin-top: 5vh;
+}
+
+div.row h2{
+	padding: 0;
+	border: 0;
+	font-family: 'Pattaya', sans-serif;
+	color:#cc0000;
+	font-size: 25pt;
+	text-align: center;
+	border-radius: 100px;
+}
+
+img{
+	max-width: 400px;
+	height: auto;
+	margin-top: 10vh;
+}

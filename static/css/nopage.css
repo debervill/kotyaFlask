@@ -1,0 +1,31 @@
+.body, html{
+	margin: 0;
+	padding: 0;
+	background: url(../img/noback.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.yesimg{
+	width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.yesimg h1{
+	padding: 0;
+	border: 0;
+	font-family: 'Pattaya', sans-serif;
+	color:#cc0000;
+	font-size: 50pt;
+	text-align: center;
+	border-radius: 100px;
+}
+

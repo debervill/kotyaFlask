@@ -1,0 +1,2 @@
+CLIENT_SECRET = "2U25Cuk6p/Apbeb.nyprWm=d@zL__iB-"
+TEMPLATES_AUTO_RELOAD = "True"

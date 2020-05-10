@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="ru">
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/yespage.css')}}">
+	<link href="https://fonts.googleapis.com/css?family=Pattaya&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{%include 'bootstrap.html'%}
+	<title>Да, ты Котя</title>
+	
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<img  src="{{url_for('static', filename='img/love2.jpg')}}">
+		</div> 
+		<div class="row">
+				<h1>ТЬМООООООК</h1>
+		</div>
+		<div class="row">
+			<h2>Мы вместе {{days}} дней </h>	
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/defaultBack.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	}
+.container{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 35vh;
+}
+
+ .kotya h1{
+	font-family: 'Roboto Mono', monospace;
+	color:#0f2338;
+	font-size: 50pt;
+
+}
+
+.kotya #yesbtn{
+	width: 100px;
+	height: 100px;
+	border: 30px;
+	background:#fe5f55;
+	border: 2px;
+	border-radius: 24px;
+	font-size: 25px;
+	color:#faf3dd;
+	cursor:pointer;
+
+}
+
+.kotya #nobtn{
+	width: 100px;
+	height: 100px;
+	border: 30px;
+	background: #fe5f55;
+	border: 2px;
+	border-radius: 24px;
+	font-size: 25px;
+	color:#faf3dd;
+	cursor:pointer;
+
+}
+
+.kotya #yesbtn:hover{
+	background:#90ddf0;
+	border: 2px solid #4ce0b3;
+	color:#2b3a67;
+}
+
+.kotya #nobtn:hover{
+	background:#90ddf0;
+	border: 2px solid #4ce0b3;
+	color:#2b3a67;
+}
