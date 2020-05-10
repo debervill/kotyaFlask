@@ -1,25 +1,32 @@
-.body, html{
-	margin: 0;
-	padding: 0;
+body, html{
 	background: url(../img/noback.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
+	font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
 
 }
 
-.yesimg{
-	width: 500px;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+
+.h1, h1 {
+    font-size: 30pt;
+    color: #cc0000;
+    font-family: 'Pattaya', sans-serif;
+	text-align: center;
 }
 
-.yesimg h1{
+
+container-fluid{
+	min-width: 500px;
+}
+
+div.row{
+	justify-content:center;
+}
+
+div.row h1{
 	padding: 0;
 	border: 0;
 	font-family: 'Pattaya', sans-serif;
@@ -27,5 +34,19 @@
 	font-size: 50pt;
 	text-align: center;
 	border-radius: 100px;
+	margin-top: 5vh;
 }
 
+
+img{
+	max-width: 400px;
+	height: auto;
+	margin-top: 10vh;
+
+}
+
+#backbtn{
+	background-color: 	#fe5f55;
+	text-transform: uppercase;
+	border: #fe5f55;
+}

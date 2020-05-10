@@ -2,15 +2,23 @@
 <meta charset="UTF-8">
 <html lang="ru">
 <head>
-	<link rel="stylesheet" href="css/nopage.css">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/nopage.css')}}">
 	<link href="https://fonts.googleapis.com/css?family=Pattaya&display=swap" rel="stylesheet">
+	{%include 'bootstrap.html'%}
 	<title>Жаль</title>
-	
+
 </head>
 <body>
-	<div class="yesimg">
-		<h1>Жаль, я ждал свою Котю. </h1>
+	<div class="container-fluid">
+		<div class="row">
+			<img  src="{{url_for('static', filename='img/bear.jpg')}}">
+		</div> 
+		<div class="row">
+				<h1>Жаль, я ждал свою Котю.</h1>
+		</div>
+		<div class="row">
+			<button class="btn btn-primary" id="backbtn" onClick="window.location.href='{{ url_for( 'index' ) }}';">На главную</button>	
+		</div>
 	</div>
 </body>
-
 </html>

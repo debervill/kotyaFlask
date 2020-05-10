@@ -1,16 +1,11 @@
-html{
-	min-width: 488px;
-}
-
-body{
+body, html{
 	margin: 0;
 	padding: 0;
 	background: url(../img/yesback.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	height: 100vh;
 
+
+	
 }
 
 container-fluid{
@@ -46,4 +41,10 @@ img{
 	max-width: 400px;
 	height: auto;
 	margin-top: 10vh;
+}
+
+#backbtn{
+	background-color: 	#fe5f55;
+	text-transform: uppercase;
+	border: #fe5f55;
 }
