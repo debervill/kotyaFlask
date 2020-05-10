@@ -1,7 +1,7 @@
 body{
+	background: url(../img/yesback.jpg);
 	margin: 0;
 	padding: 0;
-	background: url(../img/yesback.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -59,9 +59,6 @@ img{
 	height: 50px;
 	border-radius: 24px;
 }
-#mainpage{
-	vertical-align: middle;
-}
 
  /*Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
@@ -73,10 +70,12 @@ img{
 
 	div.row h1{
 		font-size: 20pt;
+		margin-top: 10px;
 	}
 
 	div.row h2{
 		font-size: 10pt;
+		margin-top: 10px;
 	}
 
 	container-fluid{
